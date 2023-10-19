@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    color: #ffffff
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Transformacion en ELEMENTO */
+#menu {
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}
+
+#boton-toggle {
+    background-color: #430279;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#boton-toggle:focus {
+    outline: none;
+}
+
+
+
+
+/* Estilo personalizado para los iconos de Font Awesome */
+.fab.fa-instagram {
+    color: #ff5733; /* Cambia el color del icono de Instagram a naranja */
+}
+
+.fas.fa-home {
+    color: #ff5733; /* Cambia el color del icono de casa a naranja */
+}
+
+.fas.fa-envelope {
+    color: #007bff; /* Cambia el color del icono de correo a azul */
+}
+
+.fas.fa-phone {
+    color: #28a745; /* Cambia el color del icono de teléfono a verde */
+}
+
+
+
+
+
+
+/* Contact */
+#contacto {
+    background-color: #300935; /* Background color for the contact section */
+    padding: 50px 0; /* Padding around the content inside the contact section */
+    text-align: right;
+}
+
+.contacto-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.contacto-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contacto-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.contacto-container label,
+.contacto-container input,
+.contacto-container textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contacto-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-container button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos base para todos los tamaños de pantalla */
+body {
+    font-size: 16px;
+    /* Otros estilos generales */
+}
+
+/* Estilos para dispositivos móviles (hasta 767px de ancho) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        /* Estilos específicos para dispositivos móviles */
+    }
+}
+
+/* Estilos para tabletas (768px a 991px de ancho) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+        /* Estilos específicos para tabletas */
+    }
+}
+
+/* Estilos para computadoras de escritorio (a partir de 992px de ancho) */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+        /* Estilos específicos para computadoras de escritorio */
+    }
+}
+
+
+

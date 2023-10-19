@@ -1,0 +1,37 @@
+4 páginas html, ok
+un formulario de contacto con validación de Javascript, ok
+un Iframe, ok
+
+íconos de FontAwesome o Flaticon y fuentes locales o de Google Fonts, ok
+
+
+y que tengas una página 
+completamente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos. ok 
+
+etiquetas semánticas para estructurar tu sitio,
+incorporar al menos una animación o transformación,
+y consumir una API Rest desde JavaScript.
+
+Diseño:
+ maquetación del sitio web, la alineación y márgenes entre los elementos, la tipografía seleccionada,
+ las fotografías y paleta de colores acordes a la temática del proyecto, el logo utilizado y los íconos
+ y favicon.
+
+
+1. Info
+2. Estructura
+3. Diseño
+
+1. Info
+*Paginas:
+1- Index - PRESENTACION - Portada (Foto, Menu, Quien soy, Servicio
+2. Quien soy (cv)
+3. Clases - Deporte y Servicio - Formulario de contacto
+4. Arte
+
+
+
+
+
+
+
