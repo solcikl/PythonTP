@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APARICIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">APARICIA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                    <a href="#inicio">Inicio</a>  
+                    <a href="#sobre-el-show">Sobre el Show</a>
+                    <a href="#entrenamiento">Entrenamiento</a>
+                    <a href="#arte">Arte</a>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                </ul>
+            </nav>
+            <div id="nav-responsive">
+                <i class="fa-solid fa-bars fa-flip"></i>
+            </div>
+    </header>
+    </div>
+
+<br><br><br><br>
+
+<!--Seccion inicio-->
+    <!-- Breve presentacion/explicacion -->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <!-- Debajo, agregar un enlace en href que se relacione con la palabra aparicia (opcional) -->
+        <h1>Bienvenidos a <a href=""><span class="color" style="color:rgb(119, 0, 231);">APARICIA</span></a></h1>
+        <h2>Viví la experiencia de un show multisensorial</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium illum quo veritatis nulla atque omnis expedita eveniet porro ex. Nemo officiis veniam nihil cumque eaque dolore tempore quo voluptates perspiciatis.</p>
+    </div>
+</section>
+
+<!-- Seccion Video -->
+<section id="video" class="video">
+    <div id="video" class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TsQ22561mk4" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+</section>
+
+<!-- Sobre el show -->
+
+<section id="sobre-el-show" class="sobre-el-show">
+    <div class="contenido-sobre-el-show">
+        <h2>Sobre APARICIA</h2>
+        <h3>¿Que es aparicia?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, necessitatibus sunt quos odit ex voluptas, magni ipsa architecto sapiente ullam, esse expedita. Officia eius corporis perspiciatis iste eum, deleniti in!</p>
+        <br>
+        <h3>¿Que es un concierto multisensorial?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quae deleniti nesciunt cum consequuntur unde similique odio assumenda ex. Officia, reprehenderit deleniti! Est tenetur debitis mollitia eos expedita maxime fugit.</p>
+        <br>
+        <h3>¿Quien Soy?</h3>
+        <p><a href="#entrenamiento"><span class="color" style="color:rgb(255, 0, 149);">Sol</span></a> <-- REFERENCIAR, QUE LLEVE AL APARTADO ARTE</p>
+        <br>
+        <h3>Beneficios</h3>
+        <div class="beneficios">
+            <div class="beneficio">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>Atencion</span>
+            </div>
+            <div class="beneficio">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span>Concentracion</span>
+            </div>
+            <div class="beneficio">
+            <i class="fa-solid fa-film"></i>
+            <span>Comunicacion</span>
+            </div>
+            <div class="beneficio">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>Aprendizaje</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Entrenamiento -->
+<section id="entrenamiento" class="entrenamiento">
+    <h2>Entrenamiento</h2>
+    <div class="contenido-entrenamiento">
+        <div class="col-izq">
+            <div class="item-izq">
+                <h3>¿Cómo entrenamos para el show?</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus animi accusamus iste vitae et, totam blanditiis porro voluptates veniam, officia repudiandae earum eligendi autem quam asperiores? Quo quas hic facilis.</p>
+                <h3>¿Qué se necesita para lograrlo?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio et autem, adipisci, maxime iure nulla incidunt, vel odit quos atque optio? Reiciendis qui mollitia doloremque unde hic modi consequatur.</p>
+            </div>
+        </div>
+        <div class="col-der">
+            <div class="item-der">
+                <img src="img/1.jpg" alt="entrenando">
+                <img src="img/2.jpg" alt="entrenando">
+                <img src="img/3.jpg" alt="entrenando">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Seccion Contacto -->
+<section id="contacto">
+    <div class="contenido-contacto">
+    <h2>Contacto</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required="">
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required="">
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required=""></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje-validacion"></p>
+    </div>
+</section>
+
+</body>
+</html>
